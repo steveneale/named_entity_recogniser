@@ -1,0 +1,13 @@
+# .gitignore file for 'named_entity_recognition'
+
+# Environments
+.venv/
+.env
+
+# Python / pytest files and cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Scripts and notebooks
+scripts/
