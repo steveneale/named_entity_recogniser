@@ -1,4 +1,4 @@
-# .gitignore file for 'named_entity_recognition'
+# .gitignore file for 'named_entity_recogniser'
 
 # Environments
 .venv/
