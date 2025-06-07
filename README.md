@@ -34,7 +34,7 @@ set +a
 To run inference on an input text, run the following command:
 
 ```bash
-python -m src.app.entry_point "Emmanuel Macron is the president of France."
+python -m src.app.main "Emmanuel Macron is the president of France."
 ```
 
 Output will be a list of tuples, with one tuple for each classified token from  
