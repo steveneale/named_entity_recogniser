@@ -1,6 +1,9 @@
 import argparse
 
+from src.app.logging.logging_config import setup_logging
 from src.app.named_entity_recogniser import NamedEntityRecogniser
+
+setup_logging()
 
 recogniser = NamedEntityRecogniser()
 

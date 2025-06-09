@@ -47,6 +47,16 @@ For example:
 [('emmanuel', 'I-PER'), ('macro', 'I-PER'), ('##n', 'I-PER'), ('is', 'O'), ('the', 'O'), ('president', 'O'), ('of', 'O'), ('france', 'I-MISC'), ('.', 'O')]
 ```
 
+## Logging
+
+The logging level can be set in `.env`. For example:
+
+```txt
+LOG_LEVEL=INFO
+```
+
+If no `LOG_LEVEL` is set, the default logging level will be `INFO`.
+
 
 ## Tests
 
